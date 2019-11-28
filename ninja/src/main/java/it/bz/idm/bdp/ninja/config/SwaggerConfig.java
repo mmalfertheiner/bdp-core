@@ -53,6 +53,7 @@ public class SwaggerConfig {
 		return UiConfigurationBuilder
 				.builder()
 				.docExpansion(DocExpansion.LIST)
+				.validatorUrl(null)
 				.build();
 	}
 }
